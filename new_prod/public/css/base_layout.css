@@ -1,0 +1,26 @@
+
+body {
+  margin: 0; /* Устанавливаем отступы у body в 0 */
+  padding: 0; /* Устанавливаем поля у body в 0 */
+  border: 0; /* Убираем границы у body */
+}
+
+
+.top_panel{
+width: 100%;
+  height: 50px;
+  background-color: rgba(255, 69, 0, 0.1);
+  display: flex;
+  justify-content: flex-end; /* выравнивание элементов по горизонтали вправо */
+  align-items: center; /* выравнивание элементов по вертикали вниз */
+
+  border: 1px solid black; /* добавим границу для контейнера */
+  }
+  .top_panel_element{
+  margin-right: 10px;
+  text-decoration: underline;
+   font-weight: bold;
+  
+  }
+
+

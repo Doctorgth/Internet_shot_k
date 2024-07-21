@@ -1,0 +1,90 @@
+
+
+.tovar_image{
+
+
+width: 100px;
+height: 100px;
+}
+
+.tovar_image_contanier{
+display: flex;
+justify-content: left;
+margin-top:5px;
+}
+.tovar_text_contanier{
+margin-left:10px;
+height:10px;
+margin-top:4px;
+margin-bottom:4px;
+display: flex; 
+    height: auto; 
+    width: 100%; 
+    word-wrap: break-word; 
+
+}
+
+.info_baner {
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  width: 200px;
+}
+
+
+.cart_tovar_contanier{
+display:flex;
+align-items: center;
+}
+.cart_del_button{
+height:25px;
+width:80px;
+display:flex;
+align-items: center;
+justify-content: center;
+background-color: orange; /* Устанавливаем оранжевый фон */
+  color: black; /* Черный цвет текста */
+  font-weight: bold; /* Жирный текст */
+  border-radius: 10px; /* Скругляем края */
+  box-shadow: 5px 5px 5px #888888; /* Добавляем тень, где значения 5px - сдвиг по горизонтали, второе 5px - сдвиг по вертикали, последнее 5px - "размытие" тени, #888888 - цвет тени (hex-код) */
+  padding: 5px; /* Добавляем отступ внутри контейнера для примера */
+}
+
+.order_button{
+height:auto;
+width:80px;
+display:flex;
+
+align-items: center;
+justify-content: center;
+background-color: orange; /* Устанавливаем оранжевый фон */
+  color: black; /* Черный цвет текста */
+  font-weight: bold; /* Жирный текст */
+  border-radius: 10px; /* Скругляем края */
+  box-shadow: 5px 5px 5px #888888; /* Добавляем тень, где значения 5px - сдвиг по горизонтали, второе 5px - сдвиг по вертикали, последнее 5px - "размытие" тени, #888888 - цвет тени (hex-код) */
+  padding: 5px; /* Добавляем отступ внутри контейнера для примера */
+
+}
+
+.info_plate{
+position: fixed;
+    top: 170px;
+    right: 40px;
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.info_msg{
+border-radius: 10px;
+padding:5px;
+background-color: green;
+
+}
